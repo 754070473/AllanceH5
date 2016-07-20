@@ -211,10 +211,10 @@ class CommonController extends Controller {
 	public function createToken( $user_id , $type = 0 )
 	{
         //生成token
-		$token = md5(mt_rand_str(20).time());
+		$token = md5( mt_rand_str(20).time() );
         //实例化User对象
         $User = M('token');
-        $time = time();
+        $time = date('Y-m-d H:i:s',time());
         $data['token'] = $token;
         //判断登录方式
         if( $type == 0 ){
@@ -227,7 +227,8 @@ class CommonController extends Controller {
         //判断是添加还是修改
         if( empty( $arr ) ){
             $data['c_time'] = $time;
-            $re = $User -> create( $data ) -> add();
+            $User -> create( $data );
+			$re = $User-> add();
 			$id = $re;
         }else{
 			$id = $arr['toke_id'];
@@ -242,6 +243,11 @@ class CommonController extends Controller {
         }
 	}
 
+	/**
+	 * 验证token值
+	 * @param $token
+	 * @param $toke_id
+	 */
     public function verifyToken( $token , $toke_id )
     {
         $User = M('token');

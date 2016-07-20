@@ -60,4 +60,10 @@ class LoginController extends CommonController {
 		    }
 	    }
     }
+
+	public function token(){
+		$token = IsNaN( $this -> _data , 'token' );
+		$token_id = IsNaN( $this -> _data , 'toke_id' );
+		$this -> verifyToken( $token , $token_id );
+	}
 }

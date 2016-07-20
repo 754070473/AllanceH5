@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as Controller1;
 use Session,DB;
 
-
+header("content-type:text/html;charset=utf-8");
 class LoginController extends Controller{
 
     public $enableCsrfValidation = false;
@@ -33,9 +33,9 @@ class LoginController extends Controller{
         );
         $api_array = CurlPost( $url , $arr );
         if($api_array['status'] == 0) {
-            $token_id = $api_array['token_id'];
+            $token_id = $api_array['toke_id'];
             $token    = $api_array['token'];
-            Session::put('token_id' , $token_id);
+            Session::put('toke_id' , $token_id);
             Session::put('token' , $token);
             Session::put('user' , $api_array['data']);
             echo '<script>window.location.href="index"</script>';
