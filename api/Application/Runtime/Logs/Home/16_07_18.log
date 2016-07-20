@@ -1,0 +1,112 @@
+[ 2016-07-18T20:54:26+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017916s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-18T20:56:39+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-18T20:57:09+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-18T20:58:11+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2016-07-18T20:58:38+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-18T21:08:36+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-07-18T21:47:55+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-18T21:48:35+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `al_recruit` WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0004s ]
+

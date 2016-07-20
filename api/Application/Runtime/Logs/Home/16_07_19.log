@@ -1,0 +1,693 @@
+[ 2016-07-19T07:24:32+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017727s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+
+[ 2016-07-19T07:25:16+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T07:26:44+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T07:30:41+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T07:32:04+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T07:37:09+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T07:40:19+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T08:11:01+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T08:19:31+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+
+[ 2016-07-19T08:19:43+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T08:40:22+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T08:40:31+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T08:58:58+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T08:59:07+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T20:02:45+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T20:02:54+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T20:03:00+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T20:06:40+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T20:06:53+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T20:26:12+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T20:26:19+08:00 ] 127.0.0.1 /home/Index/page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT -5,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT -5,5  
+
+[ 2016-07-19T20:32:03+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T20:54:42+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T20:55:31+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T20:56:10+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+
+[ 2016-07-19T20:57:32+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2016-07-19T21:00:10+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:07:20+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:07:36+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:08:33+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2016-07-19T21:08:55+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T21:09:04+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: _POST F:\phpStudy\WWW\php_10\api\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:17:16+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T21:17:26+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0009s ]
+
+[ 2016-07-19T21:17:59+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T21:18:19+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:18:47+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2016-07-19T21:18:52+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005926s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0011s ]
+
+[ 2016-07-19T21:19:11+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0005s ]
+
+[ 2016-07-19T21:19:16+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0010s ]
+
+[ 2016-07-19T21:19:21+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0016s ]
+
+[ 2016-07-19T21:19:28+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T21:21:17+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0094s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0027s ]
+
+[ 2016-07-19T21:21:22+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:21:35+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T21:21:40+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:21:44+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:26:11+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:26:18+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 5,5   [ RunTime:0.0008s ]
+
+[ 2016-07-19T21:26:23+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 10,5   [ RunTime:0.0007s ]
+
+[ 2016-07-19T21:26:27+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 15,5   [ RunTime:0.0006s ]
+
+[ 2016-07-19T21:26:33+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 20,5   [ RunTime:0.0007s ]
+
+[ 2016-07-19T21:26:36+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 25,5   [ RunTime:0.0007s ]
+
+[ 2016-07-19T21:26:40+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `al_recruit` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `al_recruit` INNER JOIN al_com_message on al_recruit.mes_id = al_com_message.mes_id   WHERE ( r_status = 1 ) ORDER BY r_addtime desc LIMIT 30,5   [ RunTime:0.0006s ]
+
