@@ -44,11 +44,19 @@ class LoginController extends Controller{
         }
     }
 
+    /**
+     * 注册界面
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function register()
     {
         return view('login.register');
     }
 
+    /**
+     * 注册入库
+     * @param Request $request
+     */
     public function doRegister(Request $request)
     {
         $phone = $request->phone;
