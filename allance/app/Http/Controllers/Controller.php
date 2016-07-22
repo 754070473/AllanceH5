@@ -36,10 +36,9 @@ abstract class Controller extends BaseController
                 $api_array = CurlPost( $url , $arr );
                 if ( $api_array['status'] == 1 ){
                     if( $token_config['restrict'] == 0 ) {
-                        Session::put( 'token' , $api_array['token'] );
+                        Session::put( 'token' , $api_array['data']['token'] );
                     }elseif( $token_config['restrict'] == 1 ){
-                        session_unset();
-                        session_destroy();
+                        Session::flush();
                         echo "<script>alert('您的账号已在别的地方登陆！');location.href='login'</script>";
                     }
                 }
