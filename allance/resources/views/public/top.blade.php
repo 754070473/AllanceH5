@@ -10,86 +10,104 @@
             <a class="navbar-brand" href="index.html"><img src="style/images/logo.png" alt=""/></a>
         </div>
         <!--/.navbar-header-->
+        <!-- //没登录状态 -->
+        @if($key==2)
+
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+
             <ul class="nav navbar-nav">
+
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">工作<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">职位</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">公司</a>
+
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="location.html">合作工作</a></li>
-                        <li><a href="location.html">步进工作</a></li>
-                        <li><a href="location.html">工作位置</a></li>
-                        <li><a href="location.html">工作行业</a></li>
+                        <li><a href="jobs.html">个人登录</a></li>
+                        <li><a href="jobs.html">企业登录</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">服务<b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-column columns-3">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <ul class="multi-column-dropdown">
-                                    <li><a href="services.html">Action</a></li>
-                                    <li><a href="services.html">Another action</a></li>
-                                    <li><a href="services.html">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">Separated link</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">One more separated link</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul class="multi-column-dropdown">
-                                    <li><a href="services.html">Action</a></li>
-                                    <li><a href="services.html">Another action</a></li>
-                                    <li><a href="services.html">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">Separated link</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">One more separated link</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul class="multi-column-dropdown">
-                                    <li><a href="services.html">Action</a></li>
-                                    <li><a href="services.html">Another action</a></li>
-                                    <li><a href="services.html">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">Separated link</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="services.html">One more separated link</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">招聘人员<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">注册<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="login.html">Recruiter Updates</a></li>
-                        <li><a href="recruiters.html">Recruiters you are following</a></li>
-                        <li><a href="codes.html">Shortcodes</a></li>
+                        <li><a href="jobs.html">个人注册</a></li>
+                        <li><a href="jobs.html">企业注册</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">更多<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="jobs.html">Walk-ins</a></li>
-                        <li><a href="jobs.html">Bpo Jobs</a></li>
-                        <li><a href="jobs.html">Teaching Jobs</a></li>
-                        <li><a href="jobs.html">Diploma Jobs</a></li>
-                        <li><a href="jobs.html">Tech Support</a></li>
-                        <li><a href="jobs.html">Finance Jobs</a></li>
-                        <li><a href="jobs.html">Part time Jobs</a></li>
-                        <li><a href="jobs.html">Health Care</a></li>
-                        <li><a href="jobs.html">Hospitality</a></li>
-                        <li><a href="jobs.html">Internships</a></li>
-                        <li><a href="jobs.html">Research Jobs</a></li>
-                        <li><a href="jobs.html">Defence Jobs</a></li>
-                    </ul>
-                </li>
-                <li><a href="login">登录</a></li>
-                <li><a href="resume.html">上传简历</a></li>
             </ul>
         </div>
+            <!-- //个人状态 -->
+        @elseif($key==0)
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+
+            <ul class="nav navbar-nav">
+
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">职位</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">公司</a>
+
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人中心<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="jobs.html">我收藏的职位</a></li>
+                        <li><a href="jobs.html">我的订阅</a></li>
+                        <li><a href="jobs.html">帐号设置</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">退出</a>
+                </li>
+            </ul>
+        </div>
+            <!-- //企业登录状态 -->
+         @elseif($key==1)
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+
+            <ul class="nav navbar-nav">
+
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">职位</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">公司</a>
+
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">企业信息中心<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="jobs.html">发布职位</a></li>
+                        <li><a href="jobs.html">收到的简历</a></li>
+                        <li><a href="jobs.html">我要招人</a></li>
+                        <li><a href="jobs.html">帐号设置</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">退出</a>
+                </li>
+            </ul>
+        </div>
+
+           @endif
         <div class="clearfix"> </div>
     </div>
     <!--/.navbar-collapse-->
