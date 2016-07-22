@@ -28,7 +28,7 @@ class LoginController extends Controller{
 
         $url = $this->apiUrl('Login','index');
         $arr = array(
-            'user_name' => $username,
+            'user_name'      => $username,
             'user_password' => $password
         );
         $api_array = CurlPost( $url , $arr );
@@ -59,14 +59,14 @@ class LoginController extends Controller{
      */
     public function doRegister(Request $request)
     {
-        $phone = $request->phone;
-        $email = $request->email;
+        $phone    = $request->phone;
+        $email    = $request->email;
         $password = $request->password;
 
         $url = $this->apiUrl('Register','index');
         $arr = array(
-            'phone' => $phone,
-            'email' => $email,
+            'phone'    => $phone,
+            'email'    => $email,
             'password' => $password
         );
         $api_array = CurlPost( $url , $arr );

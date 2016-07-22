@@ -53,6 +53,7 @@ class LoginController extends CommonController {
 		    if ( md5( $user_password ) == $arr_login['p_pwd'] ) {
 			    //密码正确 登录成功
 				$other_data = $this -> createToken( $arr_login[$user_id] , $type );
+				$arr_login['type'] = $type;
 			    $this -> success( Success::LOGIN_SUCCESS , Success::LOGIN_SUCCESS_MSG , $arr_login ,$other_data );
 		    } else {
 			    //密码错误
