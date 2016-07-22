@@ -17,9 +17,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!----font-Awesome----->
     <link href="style/css/font-awesome.css" rel="stylesheet">
     <!----font-Awesome----->
+<script type="text/javascript">
+    $(function(){
+        $.get("{{url('top')}}",function(m){
+            $('.container').first().before(m);
+        })
+    })
+</script>
 </head>
 <body>
-@include('public.top')
 <div class="container">
     <div class="grid_1">
         <h3>Featured Employers</h3>

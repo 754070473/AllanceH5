@@ -10,21 +10,19 @@ class PublicController extends Controller{
 
     public $enableCsrfValidation = false;
     /**
-     * 首页
+     * 头部
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function top()
     {
         $user = Session::get('user');
-        if ( empty( $user['type'] ) ){
+        if ( empty( $user ) ){
             $key = 2;
+			$user = array();
         }else{
             $key = $user['type'];
         }
-        return view( 'public.top' , array( 'key' => $key ) );
+        return view( 'public.top' , array( 'key' => $key , 'user' => $user ) );
     }
-    public function footer()
-    {
-        return view('public.footer');
-    }
+
 }

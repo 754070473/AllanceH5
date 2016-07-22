@@ -34,8 +34,8 @@ class RegisterController extends CommonController {
 		}
 
 		//判断是企业注册还是个人账号登注册
-		$login_type = IsNaN( $this -> _data , 'login_type' );
-		if (empty( $login_type ) ) {
+		$register_type = IsNaN( $this -> _data , 'register_type' );
+		if ( empty( $register_type ) || $register_type == 0 ) {
 			//默认为个人账号注册
 			$User = M("personal"); // 实例化User对象
 			$phone_name = 'p_phone';
@@ -52,8 +52,10 @@ class RegisterController extends CommonController {
 		//判断手机号、邮箱是否已注册
 		if( $User->where("$phone_name = '$phone'")->find() ) {
 			$this -> errorMessage( Status::REGISTER_PHONE_EXIST , Status::REGISTER_PHONE_EXIST_MSG );
+			exit;
 		} elseif ( $User->where("$email_name = '$email'")->find() ) {
 			$this -> errorMessage( Status::REGISTER_EMAIL_EXIST , Status::REGISTER_EMAIL_EXIST_MSG );
+			exit;
 		}
 
 		$data = array (

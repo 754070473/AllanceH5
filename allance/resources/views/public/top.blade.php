@@ -30,15 +30,15 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="jobs.html">个人登录</a></li>
-                        <li><a href="jobs.html">企业登录</a></li>
+                        <li><a href="login">个人登录</a></li>
+                        <li><a href="login?login_type=1">企业登录</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">注册<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="jobs.html">个人注册</a></li>
-                        <li><a href="jobs.html">企业注册</a></li>
+                        <li><a href="register">个人注册</a></li>
+                        <li><a href="register?register_type=1">企业注册</a></li>
                     </ul>
                 </li>
             </ul>
@@ -58,7 +58,15 @@
 
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人中心<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					@if(empty(!$user['i_name']))
+					{{$user['i_name']}}
+					@elseif(!empty($user['p_email']))
+					{{$user['p_email']}}
+					@else
+					{{$user['p_phone']}}
+					@endif
+					的个人中心<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="jobs.html">我收藏的职位</a></li>
                         <li><a href="jobs.html">我的订阅</a></li>
@@ -85,7 +93,15 @@
 
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">企业信息中心<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					@if(empty(!$user['i_name']))
+					{{$user['i_name']}}
+					@elseif(!empty($user['p_email']))
+					{{$user['p_email']}}
+					@else
+					{{$user['p_phone']}}
+					@endif
+					的企业信息中心<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="jobs.html">发布职位</a></li>
                         <li><a href="jobs.html">收到的简历</a></li>
