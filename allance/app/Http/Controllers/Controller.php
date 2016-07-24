@@ -24,7 +24,7 @@ abstract class Controller extends BaseController
         $function = $action['method'];
         $controller = substr($action['controller'], strpos($action['controller'], 'Controllers') + 12, -10);
         $token_config = require ('Auth/TokenConfig.php');
-        if ( in_array( $controller , $token_config['controller'] ) == true && in_array( $function , $token_config['function'] ) == true ){
+        if ( in_array( $controller.'.'.$function , $token_config['action'] ) == true || in_array( 'GLOBAL' , $token_config['action'] )){
             $token    = Session::get('token');
             $token_id = Session::get('toke_id');
             if( !empty( $token ) && !empty( $token_id ) ) {

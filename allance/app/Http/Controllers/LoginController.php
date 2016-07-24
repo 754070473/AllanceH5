@@ -35,7 +35,6 @@ class LoginController extends Controller{
 			'login_type'    => $login_type
         );
         $api_array = CurlPost( $url , $arr );
-		print_r($api_array);die;
         if($api_array['status'] == 0) {
             $token_id = $api_array['toke_id'];
             $token    = $api_array['token'];

@@ -94,14 +94,12 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					@if(empty(!$user['i_name']))
-					{{$user['i_name']}}
-					@elseif(!empty($user['p_email']))
-					{{$user['p_email']}}
+					@if(!empty($user['c_email']))
+					{{$user['c_email']}}
 					@else
-					{{$user['p_phone']}}
+					{{$user['c_phone']}}
 					@endif
-					的企业信息中心<b class="caret"></b></a>
+					<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="jobs.html">发布职位</a></li>
                         <li><a href="jobs.html">收到的简历</a></li>

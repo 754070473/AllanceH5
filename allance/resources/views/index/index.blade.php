@@ -4,19 +4,16 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Seeking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="style/css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="style/js/jquery.min.js"></script>
-    <script src="style/js/bootstrap.min.js"></script>
     <!-- Custom Theme files -->
     <link href="style/css/style.css" rel='stylesheet' type='text/css' />
-    <link href='http://fonts.useso.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <!--font-Awesome->
+    <!----font-Awesome----->
     <link href="style/css/font-awesome.css" rel="stylesheet">
-    <!--font-Awesome-->
+    <!----font-Awesome----->
+    <script src="style/js/jquery.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(function(){
         $.get("{{url('top')}}",function(m){
@@ -68,34 +65,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <div class="single">
         <div class="col-md-4">
+		@foreach( $classify as $key => $val )
             <div class="col_3">
-                <h3>Todays Jobs</h3>
-                
+                <h3>{{$val['i_name']}}</h3>
+                <ul class="list_1">
+				@foreach( $val['son'] as $kk => $vv )
+                    <li>
+						<span>
+							<a href="#">{{$vv['i_name']}}</a>
+						</span>：&nbsp;&nbsp;
+						@foreach( $vv['son'] as $k => $v )
+							<a href="#">{{$v['i_name']}}</a>
+						@endforeach
+					</li>
+				@endforeach
+                </ul>
             </div>
-            <div class="col_3">
-                <h3>Jobs by Category</h3>
-                
-            </div>
-            <div class="widget">
-                <h3>Take The Seeking Poll!</h3>
-                <div class="widget-content">
-                    <div class="seeking-answer">
-                    
-                        <div class="seeking_vote">
-                            <!-- <a class="seeking-vote-button">Vote</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+		@endforeach
         </div>
-       <div class="col-md-8">
+        <div class="col-md-8">
             @foreach( $data as $key => $val )
             <div class="col_1">
                 <div class="col-sm-4 row_2">
+                    <a href="single.html"><img src="{{$val['m_logo']}}" alt=""></a>
                 </div>
                 <div class="col-sm-8 row_1">
-                    <a href="single.html"><img src="{{$val['m_logo']}}" alt="" width="50px" height="50px"></a>
-
                     <h4><a href="single.html">{{$val['r_name']}}</a></h4>
                     <h6>{{$val['m_name']}} <span class="dot">·</span> {{$val['r_addtime']}}</h6>
                     <p>{{$val['productprofile']}}</p>
@@ -117,10 +111,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             @endforeach
                 <input type="hidden" id="show_click">
-                @if( $show_click == 1 )
-                    <span id="more_button"><a href="javascript:void (0)" onclick="ck_page({{$page+1}})" class="btn btn-default pull-left" >加载更多</a></span>
-                @endif
         </div>
+        @if( $show_click == 1 )
+            <span id="more_button"><a href="javascript:void (0)" onclick="ck_page({{$page+1}})" class="btn btn-default pull-left" >加载更多</a></span>
+        @endif
         <div class="clearfix"></div>
     </div>
 </div>
