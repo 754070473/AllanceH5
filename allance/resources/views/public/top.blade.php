@@ -117,17 +117,60 @@
     </div>
     <!--/.navbar-collapse-->
 </nav>
+
 <div class="banner_1">
     <div class="container">
         <div id="search_wrapper1">
             <div id="search_form" class="clearfix">
                 <h1>开始找工作</h1>
                 <p>
-                    <input type="text" class="text" placeholder="请输入行业" value="">
-                    <input type="text" class="text" placeholder="请输入职位" value="">
-                    <label class="btn2 btn-2 btn2-1b"><input type="submit" value="搜索"></label>
+                    <input type="text" class="text" id="m_name" placeholder="请输入企业名称" value="">
+                    <label class="btn2 btn-2 btn2-1b"><input type="submit" value="搜索" id="company"></label>
+                </p>
+                 <p>
+                    <input type="text" class="text" id="r_name" placeholder="请输入职位" value="">
+                    <label class="btn2 btn-2 btn2-1b"><input type="submit" value="搜索" id="position"></label>
                 </p>
             </div>
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).on('click',':submit',function(){
+        var r_name=$("#r_name").val();//职位
+        var m_name=$("#m_name").val();//企业
+        
+            $.ajax({
+               type: "get",
+               url: "{{url('ComMessage')}}",
+               data: ,
+               success: function(msg){
+                 alert(msg);
+               }
+            });
+
+       if($(".text").val()==''){
+        //职位
+            var r_name=$("#r_name").val();
+            if(r_name==""){
+                alert("企业名称或职位不能为空")
+            }else{
+                var name="r_name="+r_name;
+            }
+       }else{
+        //公司
+        var m_name=$("#m_name").val();
+        var name="m_name="+m_name;
+       }
+       $.ajax({
+           type: "get",
+           url: "{{url('ComMessage')}}",
+           data: name,
+           success: function(msg){
+             alert(msg);
+           }
+        });
+    })
+
+
+</script>

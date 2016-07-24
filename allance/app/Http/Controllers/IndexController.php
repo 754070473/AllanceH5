@@ -10,7 +10,7 @@ class IndexController extends Controller{
 
     public $enableCsrfValidation = false;
     /**
-     * 首页
+     * 首页s
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
@@ -21,7 +21,7 @@ class IndexController extends Controller{
         //主页职位列表
         $url = $this -> apiUrl('Index','index');
         $api_array = CurlPost( $url );
-//        print_r( $api_array );die;
+       //print_r( $api_array );die;
         if ( $api_array['status'] == 0 ){
             return view(
                 'index.index',

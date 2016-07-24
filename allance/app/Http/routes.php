@@ -28,3 +28,7 @@ Route::any('/doLogin', 'LoginController@doLogin');
 //注册页面
 Route::any('/register', 'LoginController@register');
 Route::any('/doRegister', 'LoginController@doRegister');
+/**
+ * 企业信息
+ */
+Route::any('/ComMessage', 'CommessageController@ComMessage');
