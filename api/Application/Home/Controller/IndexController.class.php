@@ -47,11 +47,4 @@ class IndexController extends CommonController {
 		);
 		exit;
     }
-
-	public function jobClassify()
-	{
-		$arr = $this -> classify( 'post' , 'p_pid' );
-		$this -> success( Success::POST_SELECT_SUCCESS , Success::POST_SELECT_SUCCESS_MSG , $arr );
-		exit;
-	}
 }
