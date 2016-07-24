@@ -1,9 +1,9 @@
 @foreach( $data as $key => $val )
     <div class="col_1">
         <div class="col-sm-4 row_2">
-            <a href="single.html"><img src="{{$val['m_logo']}}" alt=""></a>
         </div>
         <div class="col-sm-8 row_1">
+            <a href="single.html"><img src="{{$val['m_logo']}}" alt=""  width="50px" height="50px"></a>
             <h4><a href="single.html">{{$val['r_name']}}</a></h4>
             <h6>{{$val['m_name']}} <span class="dot">·</span> {{$val['r_addtime']}}</h6>
             <p>{{$val['productprofile']}}</p>
@@ -13,6 +13,7 @@
                     if(strpos($val['m_welfare'],',')){
                     $m_welfare = explode(',',$val['m_welfare']);
                     foreach($m_welfare as $vv){
+
                     ?>
                     <span class="share1 fb">{{$vv}}</span>
                     <?php }}else{ ?>
