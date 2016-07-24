@@ -138,40 +138,21 @@
     </div>
 </div>
 <script type="text/javascript">
-    $(document).on('click',':submit',function(){
-        var r_name=$("#r_name").val();//职位
+    $(document).on('click','#company',function(){
         var m_name=$("#m_name").val();//企业
-        
+        if(m_name==""){
+             alert("企业名称不能为空")
+        }else{
             $.ajax({
                type: "get",
                url: "{{url('ComMessage')}}",
-               data: ,
+               data: 'm_name='+m_name,
                success: function(msg){
                  alert(msg);
                }
             });
-
-       if($(".text").val()==''){
-        //职位
-            var r_name=$("#r_name").val();
-            if(r_name==""){
-                alert("企业名称或职位不能为空")
-            }else{
-                var name="r_name="+r_name;
-            }
-       }else{
-        //公司
-        var m_name=$("#m_name").val();
-        var name="m_name="+m_name;
-       }
-       $.ajax({
-           type: "get",
-           url: "{{url('ComMessage')}}",
-           data: name,
-           success: function(msg){
-             alert(msg);
-           }
-        });
+            
+        }
     })
 
 

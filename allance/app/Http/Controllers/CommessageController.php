@@ -12,21 +12,18 @@ class CommessageController extends Controller{
      * 企业信息
      */
     public function ComMessage(Request $request){
+        
         $m_name=$request->input('m_name');
-        $r_name=$request->input('r_name');
-        // if(empty($m_name)){
-        //     $name=$request->input('r_name');
-        // }else{
-        //     $name=$request->input('m_name');
-        // }
         $url = $this -> apiUrl('Commessage','index');
         $arr=[
-            'r_name'=>$r_name,
             'm_name'=>$m_name
         ];
-        print_r($arr);die;
         $api_array = CurlPost( $url , $arr);
-        print_r($api_array);die;
+        if($api_array['status']=='0'){
+            echo '1';
+        }else{
+            echo $api_array['msg'];
+        }
        
 
     }
