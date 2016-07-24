@@ -17,13 +17,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!----font-Awesome----->
 <link href="style/css/font-awesome.css" rel="stylesheet">
 <!----font-Awesome----->
+<script type="text/javascript">
+    $(function(){
+        $.get("{{url('top')}}",function(m){
+            $('.container').first().before(m);
+        })
+    })
+</script>
 </head>
 <body>
-@include('public.top')
 <div class="container">
     <div class="single">  
 	   <div class="form-container">
-        <h2>注册表单</h2>
+        <h2>注册@if($register_type == 1)企业@else个人@endif账号
+		</h2>
         <form action="{{url('doRegister')}}" method="get">
           <div class="row">
             <div class="form-group col-md-12">
@@ -46,6 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <label class="col-md-3 control-lable" for="lastName">密码</label>
                     <div class="col-md-9">
                         <input type="password" path="passWord" id="passWord" name="password" class="form-control input-sm"/>
+						<input type="hidden" name="register_type" value="{{$register_type}}" />
                     </div>
                 </div>
             </div>

@@ -18,8 +18,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="style/js/jquery.min.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
 </head>
+<script type="text/javascript">
+$(function(){
+	$.get("{{url('top')}}",function(m){
+		$('.container').first().before(m);
+	})
+})
+</script>
 <body>
-@include('public.top')
 <div class="container">
     <div class="single">  
 	   <div class="col-md-4">
@@ -93,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="login-content">
                     <form action="{{url('doLogin')}}" method="get">
                         <div class="section-title">
-                            <h3>登录你的账号</h3>
+                            <h3>登录你的@if($login_type == 1)企业@else个人@endif账号</h3>
                         </div>
                         <div class="textbox-wrap">
                             <div class="input-group">
@@ -105,6 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="input-group">
                                 <span class="input-group-addon "><i class="fa fa-key"></i></span>
                                 <input type="password" name="password" required="required" class="form-control " placeholder="请输入密码">
+								<input type="hidden" name="login_type" value="{{$login_type}}" />
                             </div>
                         </div>
                      <div class="forgot">

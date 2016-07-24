@@ -13,9 +13,10 @@ class LoginController extends Controller{
      * 登录显示
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function login()
+    public function login(Request $request)
     {
-        return view('login.login');
+		$type = $request -> login_type ? $request -> login_type : 0 ;
+        return view( 'login.login' , array( 'login_type' => $type ) );
     }
 
     /**
@@ -23,15 +24,18 @@ class LoginController extends Controller{
      */
     public function doLogin(Request $request)
     {
+		$login_type = $request->login_type;
         $username = $request->username;
         $password = $request->password;
 
         $url = $this->apiUrl('Login','index');
         $arr = array(
             'user_name'      => $username,
-            'user_password' => $password
+            'user_password' => $password,
+			'login_type'    => $login_type
         );
         $api_array = CurlPost( $url , $arr );
+		print_r($api_array);die;
         if($api_array['status'] == 0) {
             $token_id = $api_array['toke_id'];
             $token    = $api_array['token'];
@@ -48,9 +52,10 @@ class LoginController extends Controller{
      * 注册界面
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function register()
+    public function register(Request $request)
     {
-        return view('login.register');
+		$type = $request -> register_type ? $request -> register_type : 0 ;
+        return view('login.register' , array( 'register_type' => $type ) );
     }
 
     /**
@@ -62,12 +67,14 @@ class LoginController extends Controller{
         $phone    = $request->phone;
         $email    = $request->email;
         $password = $request->password;
+		$register_type = $request->register_type;
 
         $url = $this->apiUrl('Register','index');
         $arr = array(
             'phone'    => $phone,
             'email'    => $email,
-            'password' => $password
+            'password' => $password,
+			'register_type' => $register_type
         );
         $api_array = CurlPost( $url , $arr );
         if($api_array['status'] == 0) {

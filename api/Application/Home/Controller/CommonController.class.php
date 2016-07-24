@@ -258,4 +258,25 @@ class CommonController extends Controller {
 			$this -> errorMessage( 1 , 'token值错误' , array('token'=>$arr['token']));
 		}
     }
+
+	/**
+	 * 无限极分类数组处理
+	 * @param $table  表名
+	 * @param $pid_name pid字段名
+	 * @param int $pid
+	 * @return array
+	 */
+	public function classify( $table , $pid_name , $pid=0 ){
+		$User   = M( $table );
+		$fields = $User->getDbFields();
+		$k = $fields[0];
+		//查询表中根分类
+		$arr = $User -> where( "$pid_name = '$pid'" ) -> select();
+		//查询子分类
+		foreach($arr as $key=>$val)
+		{
+			$arr[$key]['son'] = $this -> classify( $table , $pid_name , $pid = $val[$k] );
+		}
+		return $arr;
+	}
 }
