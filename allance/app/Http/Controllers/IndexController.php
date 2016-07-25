@@ -10,15 +10,18 @@ class IndexController extends Controller{
 
     public $enableCsrfValidation = false;
     /**
-     * 首页
+     * 首页s
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
+		//主页职位分类
+		$url = $this -> apiUrl('Public','jobClassify');
+        $classify = CurlPost( $url );
         //主页职位列表
         $url = $this -> apiUrl('Index','index');
         $api_array = CurlPost( $url );
-//        print_r( $api_array );die;
+       //print_r( $api_array );die;
         if ( $api_array['status'] == 0 ){
             return view(
                 'index.index',
@@ -27,7 +30,8 @@ class IndexController extends Controller{
                     'count' => $api_array['count'] ,
                     'page' => $api_array['page'] ,
                     'page_sum' => $api_array['page_sum'] ,
-                    'show_click' => $api_array['show_click']
+                    'show_click' => $api_array['show_click'],
+					'classify' => $classify['data']
                 )
             );
         } else {
@@ -35,7 +39,7 @@ class IndexController extends Controller{
         }
     }
 
-    public function page(Request $request)
+    public function page( Request $request )
     {
         $url = $this -> apiUrl('Index','index');
         $page = $request -> p;

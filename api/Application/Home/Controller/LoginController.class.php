@@ -24,25 +24,27 @@ class LoginController extends CommonController {
 
         //判断是企业登录还是个人账号登录
 	    $login_type = IsNaN( $this -> _data , 'login_type' );
-        if (empty( $login_type ) ) {
+        if (empty( $login_type ) || $login_type == 0 ) {
 	        //默认为个人账号登录
             $login = M("personal"); // 实例化User对象
 			$user_id = 'per_id';
+			$prefix = 'p_';
 			$type = 0;
 		} else {
 	        //企业登录
 	        $login = M("company"); // 实例化User对象
 			$user_id = 'com_id';
+			$prefix = 'c_';
 			$type = 1;
         }
 
 	    //判断是邮箱登录还是手机号码登录
 	    if(preg_match("/^1[34578]{1}\d{9}$/",$user_name)) {
 		    //手机登录 查询用户登录信息
-		    $arr_login = $login->where('p_phone='."'$user_name'")->find();
+		    $arr_login = $login->where($prefix.'phone='."'$user_name'")->find();
 	    } else {
 		    //邮箱登录 查询用户登录信息
-		    $arr_login = $login->where('p_email='."'$user_name'")->find();
+		    $arr_login = $login->where($prefix.'email='."'$user_name'")->find();
 	    }
 
 	    if ( empty( $arr_login ) ) {
@@ -50,9 +52,10 @@ class LoginController extends CommonController {
 		    $this -> errorMessage( Status::USER_NOT_FOUND , Status::USER_NOT_FOUND_MSG );
 	    } else {
 		    //判断密码是否正确
-		    if ( md5( $user_password ) == $arr_login['p_pwd'] ) {
+		    if ( md5( $user_password ) == $arr_login[$prefix.'pwd'] ) {
 			    //密码正确 登录成功
 				$other_data = $this -> createToken( $arr_login[$user_id] , $type );
+				$arr_login['type'] = $type;
 			    $this -> success( Success::LOGIN_SUCCESS , Success::LOGIN_SUCCESS_MSG , $arr_login ,$other_data );
 		    } else {
 			    //密码错误

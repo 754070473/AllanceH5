@@ -33,3 +33,8 @@ Route::any('/doRegister', 'LoginController@doRegister');
 //简历列表页面
 Route::any('/resumes', 'ResumesController@index');
 Route::any('/resumeslist', 'ResumesController@showlist');
+
+/**
+ * 企业信息
+ */
+Route::any('/ComMessage', 'CommessageController@ComMessage');
