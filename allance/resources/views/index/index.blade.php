@@ -9,9 +9,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Custom Theme files -->
     <link href="style/css/style.css" rel='stylesheet' type='text/css' />
-    <!----font-Awesome----->
+    <!---font-Awesome-->
     <link href="style/css/font-awesome.css" rel="stylesheet">
-    <!----font-Awesome----->
+    <!---font-Awesome-->
     <script src="style/js/jquery.min.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
 <script type="text/javascript">
@@ -64,6 +64,7 @@
         <script type="text/javascript" src="style/js/jquery.flexisel.js"></script>
     </div>
     <div class="single">
+    
         <div class="col-md-4">
 		@foreach( $classify as $key => $val )
             <div class="col_3">
@@ -86,10 +87,8 @@
         <div class="col-md-8">
             @foreach( $data as $key => $val )
             <div class="col_1">
-                <div class="col-sm-4 row_2">
-                    <a href="single.html"><img src="{{$val['m_logo']}}" alt=""></a>
-                </div>
                 <div class="col-sm-8 row_1">
+                    <a href="single.html"><img src="{{$val['m_logo']}}" alt="" width="50px;" height="50px"></a>
                     <h4><a href="single.html">{{$val['r_name']}}</a></h4>
                     <h6>{{$val['m_name']}} <span class="dot">·</span> {{$val['r_addtime']}}</h6>
                     <p>{{$val['productprofile']}}</p>
@@ -110,6 +109,7 @@
                 <div class="clearfix"> </div>
             </div>
             @endforeach
+               
                 <input type="hidden" id="show_click">
         </div>
         @if( $show_click == 1 )

@@ -18,23 +18,38 @@ class CommessageController extends CommonController {
 			);
 			exit;
 	    }else{
-	    	$com_message = M("com_message"); // 实例化User对象
-	    	$list = $com_message->where("m_name like '%$m_name%'")->select();
-	    	if($list){
-	    		$this -> success(
-					Success::POST_SELECT_SUCCESS ,
-					Success::POST_SELECT_SUCCESS_MSG ,
-					$list
+		    $page = IsNaN( $this -> _data , 'page' );
+			if( empty( $page ) ){
+				$page = 1;
+			}
+			$data_size = IsNaN( $this -> _data , 'data_size' );
+			if( empty( $data_size ) ){
+				$data_size = 2;
+			}
+			$table = 'com_message';
+			$join = 'LEFT JOIN al_hang ON al_com_message.me_id = al_hang.me_id';
+			$where = "m_name like '%$m_name%'";
+			$arr = $this -> paging( $page , $data_size , $table , $where , $order , $join );
+			if( $arr['other_data']['count'] == 0 ){
+				$this -> errorMessage(
+					Status::POST_COUNT_SELECT_ERROR ,
+					Status::POST_COUNT_SELECT_ERROR_MSG
 				);
 				exit;
-	    	}else{
-	    		$this -> errorMessage(
-				Status::POST_COUNT_SELECT_ERROR ,
-				Status::POST_COUNT_SELECT_ERROR_MSG
+			} elseif ( empty( $arr['data'] ) ){
+				$this -> errorMessage(
+					Status::POST_PAGE_SELECT_ERROR ,
+					Status::POST_COUNT_SELECT_ERROR_MSG
 				);
 				exit;
-	    	}
-
+			}
+			$this -> success(
+				Success::POST_SELECT_SUCCESS ,
+				Success::POST_SELECT_SUCCESS_MSG ,
+				$arr['data'] ,
+				$arr['other_data']
+			);
+			exit;
 	    }
 		
     }
