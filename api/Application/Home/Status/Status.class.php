@@ -40,4 +40,10 @@ class Status {
     //本页无数据
     const POST_PAGE_SELECT_ERROR = 1;
     const POST_PAGE_SELECT_ERROR_MSG = '本页暂无数据';
+
+    /**
+     * 简历查询
+     */
+    const RESUMES_SELECT_ERROR = 1;
+    const RESUMES_SELECT_ERROR_MSG = '数据获取失败';
 }

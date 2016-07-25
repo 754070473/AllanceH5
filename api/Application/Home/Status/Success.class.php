@@ -16,4 +16,8 @@ class Success {
     //职位查询成功
     const POST_SELECT_SUCCESS = 0;
     const POST_SELECT_SUCCESS_MSG = '查询成功!';
+
+    //简历列表查询成功
+    const RESUMES_SELECT_SUCCESS = 0;
+    const RESUMES_SELECT_SUCCESS_MSG = '查询成功!';
 }
