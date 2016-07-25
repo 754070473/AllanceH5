@@ -64,10 +64,14 @@ class Param {
 	const REGISTER_PASSWORD_IS_ERROR_MSG = '密码为6-16位数字字母及常用特殊字符，不能为同一个字符，不能全是数字';
 	
 	//邮件内容为空
-	const Email_CONTENT_IS_NULL = 1;
-	const Email_CONTENT_IS_NULL_MSG = '邮件内容不能为空';
-	
+	const EMAIL_CONTENT_IS_NULL = 1;
+	const EMAIL_CONTENT_IS_NULL_MSG = '邮件内容不能为空';
+
 	//收件人邮箱为空
-	const Email_SETTO_IS_NULL = 1;
-	const Email_SETTO_IS_NULL_MSG = '收件人邮箱不能为空';
+	const EMAIL_SETTO_IS_NULL = 1;
+	const EMAIL_SETTO_IS_NULL_MSG = '收件人邮箱不能为空';
+
+	//收件人邮箱为空
+	const EMAIL_SUBJECT_IS_NULL = 1;
+	const EMAIL_SUBJECT_IS_NULL_MSG = '邮件标题不能为空';
 }

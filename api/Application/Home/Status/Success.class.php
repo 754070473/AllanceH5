@@ -16,4 +16,12 @@ class Success {
     //职位查询成功
     const POST_SELECT_SUCCESS = 0;
     const POST_SELECT_SUCCESS_MSG = '查询成功!';
+
+    //邮件发送成功
+    const EMAIL_SET_SUCCESS = 0;
+    const EMAIL_SET_SUCCESS_MSG = '邮件发送成功!';
+
+    //验证码生成成功
+    const VERIFY_CREATE_SUCCESS = 0;
+    const VERIFY_CREATE_SUCCESS_MSG = '验证码生成成功!';
 }

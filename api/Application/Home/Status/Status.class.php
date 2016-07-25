@@ -40,4 +40,8 @@ class Status {
     //本页无数据
     const POST_PAGE_SELECT_ERROR = 1;
     const POST_PAGE_SELECT_ERROR_MSG = '本页暂无数据';
+
+    //邮件发送失败
+    const EMAIL_SET_ERROR = 1;
+    const EMAIL_SET_ERROR_MSG = '邮件发送失败';
 }
