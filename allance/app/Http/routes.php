@@ -32,3 +32,4 @@ Route::any('/doRegister', 'LoginController@doRegister');
  * 企业信息
  */
 Route::any('/ComMessage', 'CommessageController@ComMessage');
+Route::any('/CommessagePage', 'CommessageController@CommessagePage');

@@ -109,7 +109,6 @@
                 <div class="clearfix"> </div>
             </div>
             @endforeach
-               
                 <input type="hidden" id="show_click">
         </div>
         @if( $show_click == 1 )

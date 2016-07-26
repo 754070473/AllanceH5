@@ -146,7 +146,7 @@
                url: "{{url('ComMessage')}}",
                data: 'm_name='+m_name,
                success: function(msg){
-                  //alert(msg)
+                 // alert(msg)
                 $('.single').children().remove();
                 $('.single').append(msg);
                }

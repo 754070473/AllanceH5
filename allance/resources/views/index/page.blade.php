@@ -27,6 +27,6 @@
 @endforeach
 @if($show_click == 1)
 <input type="hidden" id="show_click" value="{{$page+1}}">
-    @else
+@else
 <input type="hidden" id="show_click" value="0">
 @endif

@@ -13,14 +13,21 @@ class CommessageController extends Controller{
      */
     public function ComMessage(Request $request){
 
+
         $m_name=$request->input('m_name');
+        $toke_id= Session::get( 'toke_id');
+
         $url = $this -> apiUrl('Commessage','index');
         $arr=[
-            'm_name'=>$m_name
+            'm_name'=>$m_name,
+            'toke_id'=>$toke_id
         ];
         $api_array = CurlPost( $url , $arr);
-        //print_r($m_name);die;
+       
+        //print_r($api_array);die;
         if($api_array['status']=='0'){
+            //$per_id=isset($toke_id)?isset($toke_id):'';
+        //print_r($api_array);die;
                 return view(
                     'commessage.commessage',
                     array(
@@ -41,21 +48,33 @@ class CommessageController extends Controller{
      * @param  Request $request [description]
      * @return [type]           [description]
      */
-    public function actionCommessagePage(Request $request)
-    {
-        $url = $this -> apiUrl('Commessage','index');
+    public function CommessagePage(Request $request){
+        $m_name=$request->input('m_name');
         $page = $request -> p;
-        $arr['page'] = $page;
+
+        $url = $this -> apiUrl('Commessage','index');
+         $arr=[
+            'm_name'=>$m_name,
+            'page'=>$page
+        ];
         $api_array = CurlPost( $url , $arr);
-        return view(
-            'commessage.page',
-            array(
-                'arr' => $api_array['data'] ,
-                'count' => $api_array['count'] ,
-                'page' => $api_array['page'] ,
-                'page_sum' => $api_array['page_sum'] ,
-                'show_click' => $api_array['show_click']
-            )
-        );
+        //print_r($api_array);die;
+        if($api_array['status']=='0'){
+            return view(
+                'commessage.page',
+                array(
+                    'arr' => $api_array['data'] ,
+                    'count' => $api_array['count'] ,
+                    'page' => $api_array['page'] ,
+                    'page_sum' => $api_array['page_sum'] ,
+                    'show_click' => $api_array['show_click'],
+                    'm_name' => $m_name
+                )
+            );
+        }else{
+            echo $api_array['msg'];
+        }
+
+
     }
 }
