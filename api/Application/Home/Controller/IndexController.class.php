@@ -10,6 +10,8 @@ class IndexController extends CommonController {
 	 * 首页职位列表接口
 	 */
     public function index(){
+    	 $name = IsNaN( $this -> _data , 'name' )?IsNaN( $this -> _data , 'name' ):"";
+                     // $name="1";
 	    $page = IsNaN( $this -> _data , 'page' );
 		if( empty( $page ) ){
 			$page = 1;
@@ -24,7 +26,12 @@ class IndexController extends CommonController {
 		}
 		$table = 'recruit';
 		$join = 'al_com_message on al_recruit.mes_id = al_com_message.mes_id ';
-		$where = 'r_status = 1';
+		if($name==""){
+                            $where = 'r_status = 1';
+		}else{
+                              $where="r_name='$name' and r_status = 1";
+		}
+		
 		$arr = $this -> paging( $page , $data_size , $table , $where , $order , $join );
 		if( $arr['other_data']['count'] == 0 ){
 			$this -> errorMessage(
@@ -44,6 +51,8 @@ class IndexController extends CommonController {
 			Success::POST_SELECT_SUCCESS_MSG ,
 			$arr['data'] ,
 			$arr['other_data']
+
+
 		);
 		exit;
     }

@@ -1,5 +1,5 @@
 @foreach( $data as $key => $val )
-    <div class="col_1">
+    <div class="col_1" id="a">
         <div class="col-sm-4 row_2">
         </div>
         <div class="col-sm-8 row_1">
