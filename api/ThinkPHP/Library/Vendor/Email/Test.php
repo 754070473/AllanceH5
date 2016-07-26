@@ -4,12 +4,15 @@ class Test {
     //收件人邮箱
     public $smtpemailto;
     //邮箱内容
-    public $username;
+    public $content;
+    //邮箱标题
+    public $subject;
 
     function __construct($info)
     {
         $this->smtpemailto = $info['smtpemailto'];
         $this->content = $info['content'];
+        $this->subject = $info['subject'];
         error_reporting(0);
     }
 
@@ -31,7 +34,7 @@ class Test {
 //你的邮箱密码
         $smtppass = "knyjgtqyelvzbbgg"; //SMTP服务器的用户密码
 //邮件主题
-        $mailsubject = "欢迎光临开心购手机商城！";
+        $mailsubject = "$this->subject";
 //邮件内容
         $mailbody = "$this->content";
 //邮件格式（HTML/TXT）,TXT为文本邮件

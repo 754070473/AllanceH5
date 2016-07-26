@@ -278,7 +278,7 @@ class smtp
     { 
         if ($this->debug)  
         { 
-
+            return $message;
         } 
     } 
 

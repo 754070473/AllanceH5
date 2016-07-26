@@ -28,6 +28,12 @@ Route::any('/doLogin', 'LoginController@doLogin');
 //注册页面
 Route::any('/register', 'LoginController@register');
 Route::any('/doRegister', 'LoginController@doRegister');
+
+
+//简历列表页面
+Route::any('/resumes', 'ResumesController@index');
+Route::any('/resumeslist', 'ResumesController@showlist');
+
 /**
  * 企业信息
  */
