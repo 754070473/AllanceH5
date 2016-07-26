@@ -15,7 +15,7 @@
 Route::get('/', 'IndexController@index');
 Route::get('/index', 'IndexController@index');
 Route::get('/indexPage', 'IndexController@page');
-
+Route::get('/selectposition', 'IndexController@selectposition');
 //公共页面
 Route::get('/top', 'PublicController@top');
 Route::get('/footer', 'PublicController@footer');

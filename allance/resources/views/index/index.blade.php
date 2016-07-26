@@ -11,7 +11,7 @@
     <link href="style/css/style.css" rel='stylesheet' type='text/css' />
     <!----font-Awesome----->
     <link href="style/css/font-awesome.css" rel="stylesheet">
-    <!----font-Awesome----->
+    <!----font-Awesome-->
     <script src="style/js/jquery.min.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
 <script type="text/javascript">
@@ -72,10 +72,10 @@
 				@foreach( $val['son'] as $kk => $vv )
                     <li>
 						<span>
-							<a href="#">{{$vv['i_name']}}</a>
+							<a href="" >{{$vv['i_name']}}</a>
 						</span>：&nbsp;&nbsp;
 						@foreach( $vv['son'] as $k => $v )
-							<a href="#">{{$v['i_name']}}</a>
+							<a href="#" onclick="position('{{$v['i_name']}}')">{{$v['i_name']}}</a>
 						@endforeach
 					</li>
 				@endforeach
@@ -85,7 +85,7 @@
         </div>
         <div class="col-md-8">
             @foreach( $data as $key => $val )
-            <div class="col_1">
+            <div class="col_1" id="a">
                 <div class="col-sm-4 row_2">
                     <a href="single.html"><img src="{{$val['m_logo']}}" alt=""></a>
                 </div>
@@ -113,7 +113,7 @@
                 <input type="hidden" id="show_click">
         </div>
         @if( $show_click == 1 )
-            <span id="more_button"><a href="javascript:void (0)" onclick="ck_page({{$page+1}})" class="btn btn-default pull-left" >加载更多</a></span>
+            <span id=""><a href="javascript:void (0)" onclick="ck_page({{$page+1}})" class="btn btn-default pull-left" >加载更多</a></span>
         @endif
         <div class="clearfix"></div>
     </div>
@@ -136,6 +136,19 @@
                     $('#more_button').html('<a href="javascript:void (0)" onclick="ck_page(' + show_click + ')" class="btn btn-default pull-left" >加载更多</a>');
                 }
             }
+        })
+    }
+    //个人收工作
+    function position(name) {
+        $.ajax({
+            type: 'get',
+            url: 'selectposition',
+            data: 'name=' + name,
+            success: function (msg) {
+            $('#a').html(msg);
+            $('#more_button').html('');
+            
+          }
         })
     }
 </script>

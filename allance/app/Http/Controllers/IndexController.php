@@ -15,6 +15,7 @@ class IndexController extends Controller{
      */
     public function index()
     {
+
 		//主页职位分类
 		$url = $this -> apiUrl('Public','jobClassify');
         $classify = CurlPost( $url );
@@ -40,11 +41,24 @@ class IndexController extends Controller{
     }
 
     public function page( Request $request )
+
     {
+        // $name = $request->input('name'); 
+        $name = session('key');
+       // echo"$name";die;
+        // print_r($name);die;
         $url = $this -> apiUrl('Index','index');
         $page = $request -> p;
+           if($name){
         $arr['page'] = $page;
+        $arr['name'] = $name;
+        // print_r($arr);die; 
+        }else{
+         $arr['page'] = $page;
+        }
+
         $api_array = CurlPost( $url , $arr);
+        // print_r($api_array);die;
         return view(
             'index.page',
             array(
@@ -55,5 +69,30 @@ class IndexController extends Controller{
                 'show_click' => $api_array['show_click']
             )
         );
+    }
+
+    public function selectposition(Request $request){
+       
+        $url = $this -> apiUrl('Index','index'); 
+        $name = $request->input('name');
+        // echo "$name";die;
+        session(['key' => $name]);
+
+       // $n= session('key');
+
+       // echo "$n";die;
+       $arr['name'] = $name;
+        $api_array = CurlPost( $url ,$arr);
+      // print_r( $api_array );die;
+        return view(
+            'index.page',
+            array(
+                'data' => $api_array['data'] ,
+                'count' => $api_array['count'] ,
+                'page' => $api_array['page'] ,
+                'page_sum' => $api_array['page_sum'] ,
+                'show_click' => $api_array['show_click']
+            )
+        );  
     }
 }
