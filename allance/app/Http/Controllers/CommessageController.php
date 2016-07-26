@@ -23,22 +23,24 @@ class CommessageController extends Controller{
             'toke_id'=>$toke_id
         ];
         $api_array = CurlPost( $url , $arr);
-       
-        //print_r($api_array);die;
         if($api_array['status']=='0'){
             //$per_id=isset($toke_id)?isset($toke_id):'';
         //print_r($api_array);die;
-                return view(
-                    'commessage.commessage',
-                    array(
-                        'arr' => $api_array['data'] ,
-                        'count' => $api_array['count'] ,
-                        'page' => $api_array['page'] ,
-                        'page_sum' => $api_array['page_sum'] ,
-                        'show_click' => $api_array['show_click'],
-                        'm_name' => $m_name
-                    )
-                );
+        if(!empty($toke_id)){
+            $toke_id=isset($api_array['per_id'])?$api_array['per_id']:'';
+        }
+            return view(
+                'commessage.commessage',
+                array(
+                    'arr' => $api_array['data'] ,
+                    'count' => $api_array['count'] ,
+                    'page' => $api_array['page'] ,
+                    'page_sum' => $api_array['page_sum'] ,
+                    'show_click' => $api_array['show_click'],
+                    'm_name' => $m_name,
+                    'per_id'=>$toke_id
+                )
+            );
         }else{
             echo $api_array['msg'];
         }

@@ -19,6 +19,7 @@ class CommessageController extends CommonController {
 			);
 			exit;
 	    }else{
+
 		    $page = IsNaN( $this -> _data , 'page' );
 			if( empty( $page ) ){
 				$page = 1;
@@ -28,13 +29,15 @@ class CommessageController extends CommonController {
 				$data_size = 5;
 			}
 			$token=M('token')->where("toke_id='$toke_id'")->find();
+			//print_r($token['per_id']);die;
 
 			$table = 'com_message';
 			$join = 'LEFT JOIN al_hang ON al_com_message.me_id = al_hang.me_id';
 			$where = "m_name like '%$m_name%'";
 			$arr = $this -> paging( $page , $data_size , $table , $where , $order , $join );
+
 			if(!empty($token)){
-				$arr['other_data']=array_merge($arr['other_data'],$token['per_id']);//把token值遍历
+				$arr['other_data']=array_merge($arr['other_data'],['per_id'=>$token['per_id']]);//把token值遍历
 			}
 			//print_r($arr['other_data']);die;
 			if( $arr['other_data']['count'] == 0 ){
