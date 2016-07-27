@@ -21,7 +21,6 @@ class IndexController extends Controller{
 		//主页推广类型
 		$url = $this -> apiUrl('Index','generalize');
 		$generalize_list = CurlPost( $url );
-		//print_r($generalize_list['data']);die;
 		$g_type_id = array_keys($generalize_list['data']);
         //主页职位列表
 		foreach($g_type_id as $key => $val){
@@ -65,5 +64,29 @@ class IndexController extends Controller{
 				'g_type_id' => $g_type_id
             )
         );
+    }
+ public function selectposition(Request $request){
+       
+        $url = $this -> apiUrl('Index','index'); 
+        $name = $request->input('name');
+        // echo "$name";die;
+        session(['key' => $name]);
+
+       // $n= session('key');
+
+       // echo "$n";die;
+       $arr['name'] = $name;
+        $api_array = CurlPost( $url ,$arr);
+      // print_r( $api_array );die;
+        return view(
+            'index.page',
+            array(
+                'data' => $api_array['data'] ,
+                'count' => $api_array['count'] ,
+                'page' => $api_array['page'] ,
+                'page_sum' => $api_array['page_sum'] ,
+                'show_click' => $api_array['show_click']
+            )
+        );  
     }
 }

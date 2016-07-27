@@ -165,5 +165,19 @@
             }
         })
     }
+
+ //个人收工作
+    function position(name) {
+        $.ajax({
+            type: 'get',
+            url: 'selectposition',
+            data: 'name=' + name,
+            success: function (msg) {
+            $('#a').html(msg);
+            $('#more_button').html('');
+            
+          }
+        })
+    }
 </script>
 </html>	

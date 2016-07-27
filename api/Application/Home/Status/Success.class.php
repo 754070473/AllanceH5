@@ -32,4 +32,9 @@ class Success {
     //订阅成功
     const SUBSCIBE_SELECT_SUCCESS = 0;
     const SUBSCIBE_SELECT_SUCCESS_MSG = '订阅查询成功';
+
+	//简历列表查询成功
+    const RESUMES_SELECT_SUCCESS = 0;
+    const RESUMES_SELECT_SUCCESS_MSG = '查询成功!';
+
 }

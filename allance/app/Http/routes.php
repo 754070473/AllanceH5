@@ -15,7 +15,7 @@
 Route::get('/', 'IndexController@index');
 Route::get('/index', 'IndexController@index');
 Route::get('/indexPage', 'IndexController@page');
-
+Route::get('/selectposition', 'IndexController@selectposition');
 //公共页面
 Route::get('/top', 'PublicController@top');
 Route::get('/footer', 'PublicController@footer');
@@ -28,7 +28,15 @@ Route::any('/doLogin', 'LoginController@doLogin');
 //注册页面
 Route::any('/register', 'LoginController@register');
 Route::any('/doRegister', 'LoginController@doRegister');
+
+
+//简历列表页面
+Route::any('/resumes', 'ResumesController@index');
+Route::any('/resumeslist', 'ResumesController@showlist');
+
 /**
  * 企业信息
  */
+
 Route::any('/ComMessage', 'CommessageController@ComMessage');
+Route::any('/CommessagePage', 'CommessageController@CommessagePage');

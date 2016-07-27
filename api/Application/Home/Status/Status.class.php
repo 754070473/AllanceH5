@@ -58,4 +58,11 @@ class Status {
     //无数据
     const SUBECIBE_COUNT_SELECT_ERROR = 1;
     const SUBECIBE_COUNT_SELECT_ERROR_MSG = '暂无数据';
+
+
+	/**
+     * 简历查询
+     */
+    const RESUMES_SELECT_ERROR = 1;
+    const RESUMES_SELECT_ERROR_MSG = '数据获取失败';
 }
