@@ -24,4 +24,12 @@ class Success {
     //验证码生成成功
     const VERIFY_CREATE_SUCCESS = 0;
     const VERIFY_CREATE_SUCCESS_MSG = '验证码生成成功!';
+    
+    //订阅成功
+    const SUBSCIBE_INSERT_SUCCESS = 0;
+    const SUBSCIBE_INSERT_SUCCESS_MSG = '订阅成功';
+    
+    //订阅成功
+    const SUBSCIBE_SELECT_SUCCESS = 0;
+    const SUBSCIBE_SELECT_SUCCESS_MSG = '订阅查询成功';
 }

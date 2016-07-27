@@ -109,7 +109,8 @@ class CommonController extends Controller {
 	 * @param array  $data           返回数组
 	 * @param array  $other_data     其他数组
 	 */
-	public function success( $success_status = 0  , $success_msg = 'success' , $data = array() ,  $other_data = array() ){
+	public function success( $success_status = 0  , $success_msg = 'success' , $data = array() ,  $other_data = array() )
+	{
 
 		//拼装数据
 		$error_arr = array();
@@ -137,7 +138,8 @@ class CommonController extends Controller {
 	 *
 	 * @return array
 	 */
-	public function paging( $page , $data_size , $table , $where = 1 , $order = 1 , $join = ""){
+	public function paging( $page , $data_size , $table , $where = 1 , $order = 1 , $join = "")
+    {
 		$User = M("$table");
 		//查询数据总条数
 		if( $join == "" ){
@@ -170,7 +172,8 @@ class CommonController extends Controller {
 	 * @param        $request_url
 	 * @param string $all_page_key
 	 */
-	public function showClickMore( $data , $page , $page_size , $request_url , $all_page_key = 'totalpages' ){
+	public function showClickMore( $data , $page , $page_size , $request_url , $all_page_key = 'totalpages' )
+    {
 		$api_data = $data;
 		//获取总页数
 		$all_page_keys = explode( '.' , $all_page_key );

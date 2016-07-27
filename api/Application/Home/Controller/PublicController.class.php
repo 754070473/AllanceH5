@@ -58,4 +58,32 @@ class PublicController extends CommonController {
 			$this -> errorMessage( Status::EMAIL_SET_ERROR , Status::EMAIL_SET_ERROR_MSG );
 		}
 	}
+
+    /**
+     * 验证码接口
+     */
+    public function verifyClass()
+    {
+        $url = 'http://www.rbc.api.com/Home/Public/verify';
+    }
+    /**
+     * 生成验证码
+     */
+    public function verify()
+    {
+        $config =    array(
+            'fontSize'    =>    30,    // 验证码字体大小
+            'length'      =>    4,     // 验证码位数
+            'useNoise'    =>    false, // 关闭验证码杂点
+        );
+        $Verify =     new \Think\Verify($config);
+        $Verify->entry();
+    }
+
+    // 检测输入的验证码是否正确，$code为用户输入的验证码字符串
+    function check_verify($code, $id = '')
+    {
+        $verify = new \Think\Verify();
+        return $verify->check( $code , $id );
+    }
 }

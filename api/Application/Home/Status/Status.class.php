@@ -41,7 +41,21 @@ class Status {
     const POST_PAGE_SELECT_ERROR = 1;
     const POST_PAGE_SELECT_ERROR_MSG = '本页暂无数据';
 
+    /**
+     * 发送邮件
+     */
     //邮件发送失败
     const EMAIL_SET_ERROR = 1;
     const EMAIL_SET_ERROR_MSG = '邮件发送失败';
+
+    /**
+     * 职位订阅
+     */
+    //订阅失败
+    const SUBSCIBE_INSERT_ERROR = 1;
+    const SUBSCIBE_INSERT_ERROR_MSG = '订阅失败';
+
+    //无数据
+    const SUBECIBE_COUNT_SELECT_ERROR = 1;
+    const SUBECIBE_COUNT_SELECT_ERROR_MSG = '暂无数据';
 }
