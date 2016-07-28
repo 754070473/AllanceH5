@@ -123,7 +123,23 @@
             }
         })
     }
-    function deliver(deliver){
-        
+    function deliver(mes_id){
+        var per_id=$('#per_id').val();
+        if(per_id==""){
+            alert('请先登录')
+        }else{
+            $.ajax({
+            type: 'GET',
+            url: 'resumeTop',
+            data: 'mes_id='+mes_id+'&per_id='+per_id,
+            success: function (msg) {
+               if(msg=='1'){
+                    alert('提交简历成功')
+               }else{
+                alert(msg)
+               }
+            }
+        })
+        }
     }
 </script>

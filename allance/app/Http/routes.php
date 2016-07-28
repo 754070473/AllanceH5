@@ -40,3 +40,7 @@ Route::any('/resumeslist', 'ResumesController@showlist');
 
 Route::any('/ComMessage', 'CommessageController@ComMessage');
 Route::any('/CommessagePage', 'CommessageController@CommessagePage');
+/**
+ * 简历投递  简历接口  
+ */
+Route::any('/resumeTop', 'ResumeController@resumeTop');

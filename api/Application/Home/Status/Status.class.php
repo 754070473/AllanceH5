@@ -65,4 +65,11 @@ class Status {
      */
     const RESUMES_SELECT_ERROR = 1;
     const RESUMES_SELECT_ERROR_MSG = '数据获取失败';
+     /**
+     * 登录
+     */
+    const RESUME_LOGIN = '请先登录';
+    const RESUME_XINXI_TOP = '请完善简历信息';
+    const RESUME_QIYE_TOP = '该企业信息不完善';
+    const RESUME_JIANLI_TOP = '您已提交过简历';
 }
